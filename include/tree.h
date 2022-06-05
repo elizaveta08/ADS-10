@@ -11,7 +11,7 @@ class Tree {
     std::vector<Node*> leaf;
   };
   Node* root;
-   void buildTree(Node* root, std::vector<char> path) {
+  void buildTree(Node* root, std::vector<char> path) {
     if (!path.size()) {
       return;
     }
